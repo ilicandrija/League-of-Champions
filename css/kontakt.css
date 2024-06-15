@@ -1,0 +1,134 @@
+* {
+	/* box-sizing: border-box; */
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	padding: 0px;
+	color:#66fcf1;
+}
+
+h1{
+	text-align: center;
+}
+
+form {
+	padding: 57px 100px;
+	max-width: 600px;
+	margin: auto;
+}
+
+form div {
+	padding: 15px 0;
+}
+
+form div label {
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+form div label img{
+	max-width: 100%;
+}
+
+form div input {
+	height: 50px;
+	width: 100%;
+	font-size: 18px;
+	padding: 0 10px;
+}
+
+form div textarea{
+	max-width: 100%;
+	padding: 0 10px;
+	}
+
+#muski,#zenski{
+	width: 20px;
+	height: 20px;
+}
+
+form div button {
+	padding: 10px 30px;
+	font-size: 18px;
+}
+nav{
+	position: sticky;
+	width: 100%;
+	height: 30px;
+	border-top: 1px solid rgba(255,255,255,.2);
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	top: 0;
+	z-index: 100;
+}
+body{
+	background-color: #11131a;
+	text-transform: uppercase;
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+	height: 55px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul a li{
+	text-decoration:none;
+	color:black;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	
+}
+.meni li:hover{
+	background-color: #66fcf1;
+	color: white;
+  }
+.meni a:hover{
+	color:#a5a5ac;
+}  
+
+
+.meni{
+	width:100%;
+    background-color: #45a29e;
+	padding: 0px 0px 0px 0px;
+	color: grey;
+	
+}
+.polovi img{
+	border-radius: 20px;
+}
+.forma input,
+.forma textarea,
+.forma button{
+	border-radius: 8px;
+}
+button{
+    display: block;
+    margin:0 auto;
+}
+.meni a.active {
+	background-color: #66fcf1;
+	color: white;
+  }
+
+  form ul {
+	list-style: none;
+}
+
+form ul li {
+	color: red;
+}

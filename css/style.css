@@ -1,0 +1,116 @@
+body{
+	background-color: #11131a;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+
+
+.meni{
+	
+    background-color: #45a29e;
+	padding: 0px 0px 0px 0px;
+	color: grey;
+	
+}
+
+nav{
+	position: sticky;
+	width: 100%;
+	height: 30px;
+	border-top: 1px solid rgba(255,255,255,.2);
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	top: 0;
+	z-index: 100;
+}
+
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+	height: 55px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul a li{
+	text-decoration:none;
+	color:black;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	}
+
+	.meni a.active {
+		background-color: #66fcf1;
+		color: white;
+	  }
+.glavni a{
+		text-align:center;
+	}
+.glavni a img{
+	margin:0px 250px;
+	padding-top: 10px;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  border-radius:25px;
+  width: 55%;
+}
+
+
+.glavni{
+	margin: 50px;
+	width: 1475px;
+	padding: 80px 70px 130px 70px;
+	align-content: center;
+}
+
+div img{
+	width: 100%;
+	align-content: center;
+}
+
+.heder{
+	display: flex;
+	justify-content: space-around;
+	background-color: #1f2833;
+	width: 100%;
+	top: 0;
+}
+
+.heder img:hover{
+	filter: grayscale(0%);
+	scale:106.3%;
+}
+
+.heder img{
+	filter: grayscale(90%);
+	width: 60px;
+	height: 60px;
+}
+.meni li:hover{
+	background-color: #66fcf1;
+	color: white;
+  }
+.meni a:hover{
+	color:#a5a5ac;
+}
+
+.glavni img:hover{
+	scale:103.6%;
+	transition-delay:0.09s;
+}
+
+
+
+
+

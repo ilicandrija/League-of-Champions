@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validacija Forme</title>
+	<link rel="stylesheet" type="text/css" href="css/kontakt.css">
+</head>
+<body>
+	<nav>
+		<div class="meni">
+		  <ul>
+		  <a href="index.html"><li>Meni </li></a>
+		  <a href="timovi.html"><li> Teams </li></a>
+		  <a href="standings.html"><li> Standings </li></a>
+		  <a class="active" href="kontakt.html"><li>Contact Us</li></a>
+		</ul>
+		</div>
+	  </nav>
+	<form class="forma">
+		<h1>Registracija korisnika</h1>
+		<div>
+			<label for="ime_prezime">Ime i prezime:</label>
+			<input id="ime_prezime" type="text" minlength="5" name="ime_prezime" placeholder="Luka Lukic"
+			maxlength="30" required>
+			<ul id="ime"></ul>
+		</div>
+		<div class="polovi"style="display: flex; gap:10px">
+			<label for="pol">Izaberi pol:</label>
+			<label><img src="Slike/slika/muski.png" width="20px" height="20px" ></label>
+			<input type="radio" id="muski"  name="pol" checked><label><img src="Slike/slika/zenski.png" width="20px" height="20px"></label>
+			<input type="radio" name="pol" id="zenski">
+		</div>
+		<div>
+			<label for="korisnicko_ime">Korisničko ime:</label>
+			<input id="korisnicko_ime" type="text" name="korisnicko_ime" minlength="5"  placeholder="lukic.luka1"
+			maxlength="20" required>
+			<ul></ul>
+		</div>
+		<div>
+			<label for="email">Email adresa:</label>
+			<input id="email" type="text" name="email" minlength="5"  placeholder="lukalukic@gmail.com"
+			maxlength="30" required>
+			<ul id="mejl"></ul>
+		</div>
+		<div>
+			<label for="lozinka">Lozinka:</label>
+			<input id="lozinka" type="password" name="lozinka" placeholder="*******" maxlength="15" minlength="5" required>
+			<ul></ul>
+		</div>
+		<div>
+			<label for="ponovi_lozinku">Ponovi lozinku:</label>
+			<input id="ponovi_lozinku" type="password" name="ponovi_lozinku" placeholder="*******" maxlength="15" minlength="5" required>
+			<ul id="ponovi"></ul>
+		</div>
+		<div>
+			<label for="komentar">Dodaj komentar:</label>
+			<textarea style="border: 2px" name="komentar" id="komentar" minlength="5" cols="50" rows="10"> Komentar je prazan..</textarea>
+		</div>
+		<div>
+			<button id="dugme" onclick="myFunction()">Registruj se</button>
+		</div>
+	</form>
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>
